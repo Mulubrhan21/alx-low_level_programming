@@ -6,6 +6,6 @@
   */
 int main(void)
 {
-	printf("with propor grammer but the outcome is apiece of art,\n");
+	printf("with propor grammer, but the outcome is a piece of art,\n");
 	return (0);
 }
