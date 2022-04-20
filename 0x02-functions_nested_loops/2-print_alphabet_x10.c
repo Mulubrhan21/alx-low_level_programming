@@ -1,21 +1,27 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -  prints the alphabet x10
+ * print_alphabet_x10 - print alphabet
  *
+ * Return: Always 0.
  */
-
 void print_alphabet_x10(void)
 {
-	int alpha;
-	int alpha2;
+int alphabet;
+int count;
 
-	for (alpha = 0; alpha <= 9; alpha++)
-	{
-		for (alpha2 = 'a'; alpha2 <= 'z'; alpha2++)
-		{
-			_putchar(alpha2);
-		}
-		_putchar('\n');
-	}
+
+count = 0;
+while (count < 10)
+{
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
+}
+
+count++;
+_putchar('\n');
+}
+
+
 }
