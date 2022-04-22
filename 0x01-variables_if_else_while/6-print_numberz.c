@@ -1,18 +1,17 @@
 #include <stdio.h>
+
 /**
-* main -Entry point
-*
-* Return: always 0(Success/Correct)
-*/
-int main(void) 
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-int i;
+	int a;
 
-for (i= 48; i <= 57; i++)
-{ 
-putchar(i);
-}
-putchar('\n');
-return(0);            
+	for (a = 48; a < 58; a++)
+		putchar(a);
+	putchar('\n');
+
+	return (0);
 }

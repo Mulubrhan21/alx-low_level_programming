@@ -1,17 +1,18 @@
-  #include <stdio.h>
-   /**
-   * main -Entry point
-   *
-   * Return: always 0(Success/Correct)
-   */
-   int main(void)
-  
-  {
-  int digit;
- 
-  for (digit= 0; digit < 10; digit++)
- {
- print("%digit", digit);
- printf("\n");
- return(0);
-  }
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n;
+
+	for (n = 0; n <= 9; n++)
+		printf("%i", n);
+
+	putchar('\n');
+
+	return (0);
+}

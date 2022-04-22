@@ -1,20 +1,23 @@
 #include <stdio.h>
-/**
-* main -Entry point
-*
-* Return: always 0(Success/Correct)
-*/
-int main(void) 
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-char base_16;
-for(base_16=48;base_16<=57; base_16++)
-{
-putchar(base_16);
-for(base_16 =97 ; base_16<=102; base_16++)
-{
-putchar(base_16);
-}
-putchar('\n');
-return(0);            
+	char c;
+	int n;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (c = 'a'; c  <= 'f'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
