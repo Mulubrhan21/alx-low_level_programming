@@ -22,3 +22,4 @@ for (i = 0; accept[i]; i++)
 s++;
 }
 return ('\0');
+}
