@@ -1,4 +1,5 @@
-#include "mainn.h"
+
+#include "main.h"
 /**
  * print_chessboard - print a chessboard
  * @a:array
@@ -15,3 +16,5 @@ void print_chessboard(char (*a)[8])
 
 	_putchar('\n');
 	}
+}
+
