@@ -1,23 +1,9 @@
-#include "main.h"
-
-
-/**
- * main - Entry point
- *
- * Return: nothing, return void
- */
-
-int main(void)
+#include <unistd.h>
+/*
+   *_putchar -writes character c to stdout
+   *return 0n success -1
+   */
+int _putchar(char c)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-
-return (0);
+	return(write(1, &c, 1));
 }
