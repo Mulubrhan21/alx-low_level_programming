@@ -22,3 +22,4 @@ return (NULL);
 		x[i] = '\0';
 	}
 	return (x);
+}
